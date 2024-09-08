@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cloud Computing</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#types">Types</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#challenges">Challenges</a></li>
+                <li><a href="#providers">Top Providers</a></li>
+                <li><a href="#future">Future of Cloud</a></li>
+                <li><a href="mgm-college.html">MGM's College HomePage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card-container">
+            <section id="about" class="card">
+                <h2>What is Cloud Computing?</h2>
+                <p>Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale.</p>
+                <p>Instead of owning computing infrastructure, companies can rent access to resources from cloud providers. The underlying physical infrastructure is maintained by the service provider.</p>
+            </section>
+
+            <section id="types" class="card">
+                <h2>Types of Cloud Computing</h2>
+                <ul>
+                    <li><strong>Infrastructure as a Service (IaaS)</strong>: Rent basic computing resources like virtual servers and storage.</li>
+                    <li><strong>Platform as a Service (PaaS)</strong>: Get a platform for developing, running, and managing applications without managing infrastructure.</li>
+                    <li><strong>Software as a Service (SaaS)</strong>: Access software applications over the internet, without the need for installing and maintaining the software locally.</li>
+                </ul>
+            </section>
+
+            <section id="benefits" class="card">
+                <h2>Benefits of Cloud Computing</h2>
+                <ul>
+                    <li>Cost Efficiency: No upfront infrastructure investment.</li>
+                    <li>Scalability: Easily scale resources based on demand.</li>
+                    <li>Disaster Recovery: Reliable backups and fast recovery options.</li>
+                    <li>Global Accessibility: Access services from anywhere in the world.</li>
+                </ul>
+            </section>
+
+            <section id="challenges" class="card">
+                <h2>Challenges of Cloud Computing</h2>
+                <ul>
+                    <li>Security Risks: Potential for unauthorized access or data breaches.</li>
+                    <li>Vendor Lock-in: Difficulty moving to another cloud provider.</li>
+                    <li>Downtime: Outages can disrupt service availability.</li>
+                    <li>Data Privacy: Concerns about compliance and sensitive data storage.</li>
+                </ul>
+            </section>
+
+            <section id="providers" class="card">
+                <h2>Top Cloud Service Providers</h2>
+                <div id="provider-list"></div>
+                <button onclick="loadProviders()">Load Providers</button>
+            </section>
+
+            <section id="future" class="card">
+                <h2>The Future of Cloud Computing</h2>
+                <p>Upcoming trends in cloud computing include:</p>
+                <ul>
+                    <li>Edge Computing: Processing data closer to its source for real-time applications.</li>
+                    <li>AI and ML Integration: Leveraging AI and ML in cloud services for advanced data processing and automation.</li>
+                    <li>Hybrid Cloud: Combining public and private clouds for flexibility.</li>
+                </ul>
+            </section>
+        </div>
+
+        
+    </main>
+
+    <footer>
+        <p>Cloud Computing Information Project © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
